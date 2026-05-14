@@ -1,0 +1,52 @@
+# ----------------------------------------------------------------------------
+# Dictionary-model training configuration.
+# All paths are resolved relative to the project root (the directory that
+# contains this `configs/` folder).
+# ----------------------------------------------------------------------------
+
+data:
+  glossary_csv: data/raw/glossary.csv          # id,eng,ko  (UTF-8)
+  processed_dir: data/processed                # tokenizer + encoded splits
+  splits:
+    train: 0.8
+    val:   0.1
+    test:  0.1
+  seed: 1337
+  # Stratify splits so every (id-prefix, korean-character) combo appears in train.
+  stratify: true
+
+tokenizer:
+  # Snake-case IDs are split on `_`, then unknown chunks fall back to char-level.
+  id_subword_min_freq: 1
+  eng_lower: true
+  # Korean is split into per-syllable (Hangul codepoint) tokens.
+  ko_unit: syllable
+  max_src_len: 32
+  max_tgt_len: 24
+
+model:
+  d_model: 128
+  n_heads: 4
+  n_enc_layers: 3
+  n_dec_layers: 3
+  d_ff: 512
+  dropout: 0.1
+  share_target_embedding: true                 # tie tgt embedding with output proj
+
+train:
+  epochs: 30
+  batch_size: 32
+  lr: 3.0e-4
+  warmup_steps: 200
+  weight_decay: 0.01
+  label_smoothing: 0.1
+  grad_clip: 1.0
+  log_every: 20
+  eval_every_epoch: 1
+  output_dir: runs/exp1
+  device: auto                                 # "cuda", "cpu", or "auto"
+
+infer:
+  beam_size: 4
+  length_penalty: 0.6
+  max_new_tokens: 24

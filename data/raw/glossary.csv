@@ -1,0 +1,116 @@
+id,eng,ko
+abc_form_number,number,수자
+abc_invoice_number,number,수자
+abc_serial_number,number,수자
+abc_account_number,number,수자
+abc_customer_number,number,수자
+abc_order_number,number,수자
+abc_receipt_number,number,수자
+abc_ticket_number,number,수자
+abc_card_number,number,수자
+abc_passport_number,number,수자
+abc_table_row_number,row number,행번호
+abc_grid_row_number,row number,행번호
+abc_sheet_row_number,row number,행번호
+abc_report_row_number,row number,행번호
+abc_list_row_number,row number,행번호
+abc_table_column_number,column number,열번호
+abc_grid_column_number,column number,열번호
+abc_sheet_column_number,column number,열번호
+abc_report_column_number,column number,열번호
+abc_list_column_number,column number,열번호
+id_shapes_number,shapes number,도형개수
+id_pages_number,pages number,페이지개수
+id_items_number,items number,항목개수
+id_users_number,users number,사용자개수
+id_files_number,files number,파일개수
+id_lines_number,lines number,줄개수
+id_words_number,words number,단어개수
+id_chars_number,chars number,문자개수
+id_records_number,records number,레코드개수
+id_errors_number,errors number,오류개수
+abc_user_name,name,이름
+abc_customer_name,name,이름
+abc_employee_name,name,이름
+abc_student_name,name,이름
+abc_author_name,name,이름
+abc_company_name,name,상호
+abc_branch_name,name,상호
+abc_shop_name,name,상호
+abc_brand_name,name,상호
+abc_product_name,name,명칭
+abc_item_name,name,명칭
+abc_object_name,name,명칭
+abc_module_name,name,명칭
+abc_field_name,name,명칭
+abc_file_name,name,파일명
+abc_folder_name,name,폴더명
+abc_image_name,name,파일명
+abc_log_name,name,파일명
+abc_doc_name,name,파일명
+abc_video_name,name,파일명
+abc_image_size,size,크기
+abc_window_size,size,크기
+abc_screen_size,size,크기
+abc_box_size,size,크기
+abc_canvas_size,size,크기
+abc_file_size,size,용량
+abc_disk_size,size,용량
+abc_memory_size,size,용량
+abc_buffer_size,size,용량
+abc_cache_size,size,용량
+abc_shirt_size,size,사이즈
+abc_shoe_size,size,사이즈
+abc_dress_size,size,사이즈
+abc_hat_size,size,사이즈
+abc_glove_size,size,사이즈
+abc_paper_size,size,규격
+abc_box_paper_size,size,규격
+abc_envelope_size,size,규격
+abc_label_size,size,규격
+abc_card_size,size,규격
+abc_text_color,color,색상
+abc_background_color,color,색상
+abc_border_color,color,색상
+abc_font_color,color,색상
+abc_line_color,color,색상
+abc_hair_color,color,색깔
+abc_eye_color,color,색깔
+abc_skin_color,color,색깔
+abc_fruit_color,color,색깔
+abc_flower_color,color,색깔
+abc_user_type,type,유형
+abc_account_type,type,유형
+abc_payment_type,type,유형
+abc_customer_type,type,유형
+abc_event_type,type,유형
+abc_file_type,type,형식
+abc_image_type,type,형식
+abc_video_type,type,형식
+abc_doc_type,type,형식
+abc_data_type,type,형식
+abc_blood_type,type,종류
+abc_wood_type,type,종류
+abc_metal_type,type,종류
+abc_fruit_type,type,종류
+abc_flower_type,type,종류
+abc_start_date,date,시작일
+abc_begin_date,date,시작일
+abc_open_date,date,시작일
+abc_end_date,date,종료일
+abc_close_date,date,종료일
+abc_finish_date,date,종료일
+abc_birth_date,date,생년월일
+abc_hire_date,date,입사일
+abc_join_date,date,가입일
+abc_order_date,date,주문일
+abc_price_total,total,합계
+abc_amount_total,total,합계
+abc_sum_total,total,합계
+abc_score_total,total,총점
+abc_grade_total,total,총점
+abc_count_total,total,총개수
+abc_quantity_total,total,총개수
+abc_weight_total,total,총중량
+abc_length_total,total,총길이
+abc_time_total,total,총시간

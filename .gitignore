@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+
+# Data — keep raw glossary committed; ignore generated artifacts
+data/processed/**
+!data/processed/.gitkeep
+
+# Training artifacts
+runs/**
+!runs/.gitkeep
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
+.pytest_cache/
